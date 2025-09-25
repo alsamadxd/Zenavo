@@ -1,0 +1,198 @@
+[
+  {
+    "workout": "PULL-1",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "1-Arm Lat Pulldown",
+        "desc": "Try to keep the cable and your wrist aligned in a straight line throughout the pull. Feel a nice, deep lat stretch at the top",
+        "image": "../public/images/1-arm_lat_pulldown.jpg"
+      },
+      {
+        "name": "DB RDL",
+        "desc": " The RPE is intentionally low here because these will cause a lot of muscle damage. Don't be tempted to go too heavy. 1 second pause at the bottom of each rep. To keep tension on the hamstrings, stop about 75% of the way to full lockout on each rep (i.e. stay in the bottom 3/4 of the range of motion)",
+        "image": "../public/images/Dumbbell-RDL.png"
+      },
+      {
+        "name": "Chest-Supported DB rows",
+        "desc": " Flare elbows out at roughly 45° and squeeze your shoulder blades together hard at the top of each rep",
+        "image": "../public/images/chest_suported_db_rows.jpg"
+      },
+      {
+        "name": "Straight-bar Lat Prayer",
+        "desc": " Lean forward to get a big stretch on the lats at the top of the ROM and then stand upright as you squeeze your lats at the bottom",
+        "image": "../public/images/straight-bar_lat_prayer.jpg"
+      },
+      {
+        "name": "Hammer Preacher Curl",
+        "desc": "These will target the brachialis and forearms hard. Squeeze the dumbbell hard in the middle of the handle and curl about 3/4 of the way up (i.e. stay in the bottom 3/4 of the curl).",
+        "image": "../public/images/hammer_preacher-curl.jpg"
+      },
+      {
+        "name": "Lying Rope Face Pull",
+        "desc": "Pause for 1-2 seconds in the squeeze of each rep. Contract the rear delts hard!",
+        "image": "../public/images/lying_facepull.jpg"
+      }
+    ]
+  },
+  {
+    "workout": "PUSH-1",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "Cross-Body Y Raise",
+        "desc": "Raise the cables up and out in a 'Y' motion. Really try to connect with the middle delt fibers as you sweep the weight up and out",
+        "image": "../public/images/cross_bod_y_raise.jpg"
+      },
+      {
+        "name": "Low Inclined Smith Machine Press ",
+        "desc": "  Set the bench at a ~15° incline. 1 second pause on the chest on each rep while maintaining tension on the pecs.",
+        "image": "../public/images/smith-machine_low-incline-press.jpg"
+      },
+      {
+        "name": "Peck Deck (with integrated Pratial)",
+        "desc": "Set up the pec deck to allow for maximum stretch. On all sets, alternate full-ROM reps and half-ROM reps (i.e. do 1 rep with full-ROM, then 1 rep half-ROM (in the stretched/bottom half), then 1 rep full-ROM, then 1 rep half-ROM). Repeat until you've reached the target reps and an RPE of 9-10.",
+        "image": "../public/images/peckdeck.jpg"
+      },
+      {
+        "name": "Overhead Triceps Ext. Bar",
+        "desc": "Feel a nasty stretch on the triceps throughout the entire negative. Pause for 1 second in the stretch part of each rep.",
+        "image": "../public/images/Overhead_Triceps_extension_Bar.jpg"
+      },
+      {
+        "name": "Triceps Pressdown Bar",
+        "desc": "These are meant to be fairly heavy, which is why we're using a bar instead of a rope. Aim to add some weight week to week at the set rep target. Always keep the form tight as you overload the triceps.",
+        "image": "../public/images/Straight-Bar-Triceps-Pushdown.jpg"
+      },
+      {
+        "name": "Cable Crunch",
+        "desc": "Round your lower back as you crunch. Maintain a mind-muscle connection with your 6-pack",
+        "image": "../public/images/cable_crunch.jpg"
+      }
+    ]
+  },
+  {
+    "workout": "LEGS-1",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "Lying Leg Curl",
+        "desc": "Set the machine so that you get the biggest stretch possible at the bottom. Prevent your butt from popping up as you curl",
+        "image": "../public/images/lying_legcurl.jpg"
+      },
+      {
+        "name": "Heck Squat",
+        "desc": " We're using a reverse pyramid on this exercise. Warm-up as usual to your first working set for 4 reps. This first set will be your heaviest set. Then for set 2, drop the weight back ~10-15% and do 6 reps. Then for set 3, drop the weight back another 10-15% and do 8 reps.",
+        "image": "../public/images/heck_squat.jpg"
+      },
+      {
+        "name": "Leg Extension",
+        "desc": "Set the seat back as far as it will go while still feeling comfortable. Grab the handles as hard as you can to pull your butt down into the seat. Use a 2-3 second negative. Feel your quads pulling apart on the negative.",
+        "image": "../public/images/leg-extensions-machine.jpg"
+      },
+      {
+        "name": "Leg Press Calf Press",
+        "desc": "1-2 second pause at the bottom of each rep. Instead of just going up onto your toes, think about rolling your ankle back and forth on the balls of your feet.",
+        "image": "../public/images/Leg_Press.jpg"
+      }
+    ]
+  },
+  {
+    "workout": "PULL-2",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "Super-ROM Overhand Cable Row",
+        "desc": "Set up a wide grip pulldown bar on a seated cable row. Using a double overhand grip, perform rows while leaning forward on the negative and then extend your torso to be upright as you finish the row.",
+        "image": "../public/images/Overhand-cable-rows.jpg"
+      },
+      {
+        "name": "Lean-Back Lat Pulldown",
+        "desc": " Initiate the pulldown with a straight up posture. As you pull the bar down, lean back by about 15-30° to get the mid-back more involved. Softly touch the bar to your chest on every rep and, even though you're leaning back, still control the weight!",
+        "image": "../public/images/lean-back-lats-pull-down.jpg"
+      },
+      {
+        "name": "Inverse DB Zottoman Curl",
+        "desc": "Do a hammer curl on the positive, then turn your palms facing up at the top and use a palms-up grip on the negative.",
+        "image": "../public/images/hammer_curl.jpg"
+      },
+      {
+        "name": "Reverse Pec-Deck",
+        "desc": " You'll probably want to watch the video for this one. Take ~3 big steps back from the cable machine and do your first 5 reps. After those first 5 reps, immediately (without resting) take 1 step forward and do another 4 reps. Then (without resting) take another step forward and do at least another 3 reps (or until you hit RPE 9-10).",
+        "image": "../public/images/Reverse-pec-dec.jpg"
+      },
+      {
+        "name": "Cable Paused Shrug-In",
+        "desc": "Shrug up and in. Think about shrugging 'up to your ears'. 1-2 second pause in the squeeze (at the top) of each rep, then another 1-2 second pause in the stretch (at the bottom) of each rep.",
+        "image": "../public/images/cable-shrug-in.jpg"
+      }
+    ]
+  },
+  {
+    "workout": "PUSh-2",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "Machine Shoulder Press",
+        "desc": "Ensure that your elbows break at least 90°. Mind-muscle connection with your delts. Smooth, controlled reps.",
+        "image": "../public/images/Machine_Shoulder_press.jpg"
+      },
+      {
+        "name": "Cross Body Y-Raise",
+        "desc": " Think about 'drawing a sword' as you do the positive. Sweep your arm up, out and across your body. It may take a few weeks to get used to these if you haven't done them before, but once they click, they really click.",
+        "image": "../public/images/cross_bod_y_raise.jpg"
+      },
+      {
+        "name": "Paused Assisted Dips",
+        "desc": "Slow 2-3 second negative. 1-2 second pause at the bottom. Explode with control on the way up. Go as deep as your shoulders comfortably allow, trying to at least break a 90° elbow angle.",
+        "image": "../public/images/assisted_dips.jpg"
+      },
+      {
+        "name": "Low Incline DB Flye",
+        "desc": "Focus on feeling a deep stretch in your pecs at the bottom of each rep. Keep the dumbbells in the bottom ~3/4 of the range of motion as there will be no tension on the pecs at the top. We are including these because the dumbbells' resistance profile really accentuates the stretch.",
+        "image": "../public/images/low-incline-db-flye.jpg"
+      },
+      {
+        "name": "Katana Triceps Extension",
+        "desc": " Flare your elbows out at about 45° and keep your elbows locked in place as you complete the extensions.",
+        "image": "../public/images/straight-bar_lat_prayer.jpg"
+      },
+      {
+        "name": "Abs Wheel Rollout",
+        "desc": " Don't just bend at your hips, use your abs to lower yourself down under control and pull yourself back up. If you don't have the core strength to get all the way extended at the bottom, try to progressively increase the ROM week to week.",
+        "image": "../public/images/abs_wheel_rollout.jpg"
+      }
+    ]
+  },
+  {
+    "workout": "LEGS-2",
+    "week": "Week-1",
+    "exerciseName": [
+      {
+        "name": "Lying Leg Curl",
+        "desc": "Set the machine so that you get the biggest stretch possible at the bottom. Prevent your butt from popping up as you curl.",
+        "image": "../public/images/lying_legcurl.jpg"
+      },
+      {
+        "name": "Leg Press",
+        "desc": " Feet lower on the platform for more quad focus. Get as deep as you can without excessive back rounding. Control the negative and do a slight pause at the bottom of each rep. Try to add a little weight each week at the same rep count.",
+        "image": "../public/images/Leg_Press.jpg"
+      },
+      {
+        "name": "Smith Machine Lunges",
+        "desc": "2 sets each leg. Minimize contribution from the back leg. Mind-muscle connection with your glutes here!",
+        "image": "../public/images/Smith_machine_lunges.jpg"
+      },
+      {
+        "name": "Leg Extension",
+        "desc": "Allow yourself to come up onto your toes and push your knees forward past your toes. This is safe for the knees. If you feel knee pain doing them, though, feel free to go with a substitution. They may feel awkward at first, but they're really underrated for the quads! Don't give up on them too quickly.",
+        "image": "../public/images/leg-extensions-machine.jpg"
+      },
+      {
+        "name": "Standing Calf Raise",
+        "desc": "1-2 second pause at the bottom of each rep. Instead of just going up onto your toes, think about rolling your ankle back and forth on the balls of your feet.",
+        "image": "../public/images/standing-calf-raise.jpg"
+      }
+    ]
+  }
+]
