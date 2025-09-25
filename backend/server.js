@@ -12,7 +12,7 @@ import { Client } from "./models/client.js";
 uuidv4();
 dotenv.config();
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000; 
 
 // const uri =process.env.MONGODB_URI;
 // console.log(uri);
@@ -133,7 +133,7 @@ app.post("/api/check-username", async (req, res) => {
 });
 
 
-app.listen(port, () => {
+app.listen(port,'0.0.0.0',() => {
   console.log(`Example app listening on port http://localhost:${port}`);
 });
 // app.listen(5000, "0.0.0.0", () => {
