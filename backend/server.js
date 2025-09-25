@@ -4,14 +4,39 @@ import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import fs from "fs";
 import cors from "cors";
+import dotenv from 'dotenv'
 import { Program } from "./models/program.js";
 import { UserData } from "./models/user.js";
 import { Client } from "./models/client.js";
 
 uuidv4();
-let conn = await mongoose.connect("mongodb://localhost:27017/programZenavo");
+dotenv.config();
 const app = express();
 const port = 5000;
+
+// const uri =process.env.MONGODB_URI;
+// console.log(uri);
+const connectToDB = async () => {
+  try {
+    const dbURI = process.env.MONGODB_URI; // Ensure the Mongo URI is set as an environment variable
+    if (!dbURI) {
+      console.error("MongoDB URI is missing");
+      process.exit(1);
+    }
+
+    // Connect to MongoDB without using useNewUrlParser and useUnifiedTopology
+
+    console.log("Connected to MongoDB Atlas successfully!");
+  } catch (error) {
+    console.error("Error connecting to MongoDB:", error);
+    process.exit(1); // Exit the app if connection fails
+  }
+};
+
+connectToDB();
+
+
+// let conn = await mongoose.connect("mongodb://localhost:27017/programZenavo");
 
 app.use(cors());
 // const cors = require("cors");
