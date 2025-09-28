@@ -1,5 +1,5 @@
 import Navbar from "./component/Navbar";
-import Footer from "./component/footer.jsx";
+import Footer from "./component/Footer.jsx";
 
 import "./index.css";
 import Signup from "./Pages/Signup";
