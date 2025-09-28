@@ -9,6 +9,7 @@ import { useUser } from "../context/UserContext";
 
 const Dashboard = () => {
   //  const { user } = useParams();
+  const apiUrl = import.meta.env.VITE_API_URL;
   const { username } = useUser();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -22,7 +23,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/programs");
+        const res = await fetch(`${apiUrl}/api/programs`);
         // const res = await fetch("http://10.213.238.65:5000/api/programs");
         const json = await res.json();
         setData(json);

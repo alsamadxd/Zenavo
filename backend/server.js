@@ -25,6 +25,10 @@ const connectToDB = async () => {
     }
 
     // Connect to MongoDB without using useNewUrlParser and useUnifiedTopology
+    await mongoose.connect(dbURI, {
+      serverSelectionTimeoutMS: 5000, // Timeout after 5 seconds if unable to connect
+      socketTimeoutMS: 45000, // Timeout for socket operations (e.g. queries)
+    });
 
     console.log("Connected to MongoDB Atlas successfully!");
   } catch (error) {
@@ -70,7 +74,7 @@ app.post("/api/user/data", async (req, res) => {
     res.json(userdata);
   } catch (err) {
     console.error("Something went wrong", err);
-    res.status(500), json({ error: "Server error" });
+    res.status(500).json({ error: "Server error" });
   }
 });
 
@@ -91,6 +95,10 @@ app.post("/api/userid/data", async (req, res) => {
 });
 app.post("/api/login", async (req, res) => {
   const { username, password } = req.body;
+  console.log("Received request:", { username, password });
+   if (!username || !password) {
+     return res.status(400).json({ error: "Username and password are required" });
+   }
   try {
     const user = await Client.findOne({ username });
     if (!user) {
@@ -102,7 +110,7 @@ app.post("/api/login", async (req, res) => {
     res.status(200).json({ message: "Login successful", user });
   } catch (err) {
     console.error("Login error: ", err);
-    res.status(500), json({ error: "Server error" });
+    res.status(500).json({ error: "Server error" });
   }
 });
 app.post("/api/signup", async (req, res) => {

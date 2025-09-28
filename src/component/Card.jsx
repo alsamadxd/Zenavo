@@ -31,7 +31,7 @@ const Card = (exdata) => {
     try{
       // console.log(newExercise);
       
-    const res = await fetch("http://localhost:5000/api/userid/data", {
+    const res = await fetch(`${apiUrl}/api/userid/data`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newExercise),

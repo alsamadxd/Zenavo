@@ -5,6 +5,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 const Home = () => {
   const { username } = useUser();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const handleGoBack = () => {
     // This will navigate to the previous page in the browser history
@@ -22,15 +23,14 @@ const Home = () => {
       //   );
       // }
       try {
-        const res = await fetch("http://localhost:5000/api/user/data", {
-        // const res = await fetch(
-        //   "http://120.253.338.165:5000/api/user/data",
-        //   {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ username }),
-          }
-        );
+        const res = await fetch(`${apiUrl}/api/user/data`, {
+          // const res = await fetch(
+          //   "http://120.253.338.165:5000/api/user/data",
+          //   {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username }),
+        });
         const resData = await res.json();
         setData(resData);
         // console.log(resData);

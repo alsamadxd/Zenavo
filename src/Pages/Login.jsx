@@ -11,6 +11,9 @@ import {Routes, Route, Navigate } from "react-router-dom";
 
 
 const Login = () => {
+  console.log(import.meta.env);
+  const apiUrl = import.meta.env.VITE_API_URL;
+  console.log("API URL: ", apiUrl);
     const { setUser } = useUser();
   const navigate = useNavigate();
 
@@ -26,7 +29,7 @@ const Login = () => {
     async function handleLogin() {
       // setError(null);
       try {
-        const response = await fetch("http://localhost:5000/api/login", {
+        const response = await fetch(`${apiUrl}/api/login`, {
         // const response = await fetch(
         //   "http://230.321.258.412:5000/api/login",
         //   {
