@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
-import CustomDropdown from "./CustomDropDown";
+import CustomDropdown from "./CustomDropDown.jsx";
 import { useUser } from "../context/UserContext";
 
 const Card = (exdata) => {

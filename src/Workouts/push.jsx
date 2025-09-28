@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../component/card'
+import Card from "../component/Card.jsx";
 import { useLocation } from "react-router-dom";
 
 const push = ({data}) => {

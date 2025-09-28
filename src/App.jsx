@@ -1,4 +1,4 @@
-import Navbar from "./component/Navbar";
+import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
 
 import "./index.css";
