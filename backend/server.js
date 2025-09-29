@@ -14,6 +14,14 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000; 
 
+const corsOptions = {
+  origin: 'https://zenavo.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
+
+app.use(cors(corsOptions));
+
 // const uri =process.env.MONGODB_URI;
 // console.log(uri);
 const connectToDB = async () => {
@@ -41,8 +49,6 @@ connectToDB();
 
 
 // let conn = await mongoose.connect("mongodb://localhost:27017/programZenavo");
-
-app.use(cors());
 // const cors = require("cors");
 // app.use(
 //   cors({
