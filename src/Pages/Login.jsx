@@ -11,9 +11,9 @@ import {Routes, Route, Navigate } from "react-router-dom";
 
 
 const Login = () => {
-  console.log(import.meta.env);
+  // console.log(import.meta.env);
   const apiUrl = import.meta.env.VITE_API_URL;
-  console.log("API URL: ", apiUrl);
+  // console.log("API URL: ", apiUrl);
     const { setUser } = useUser();
   const navigate = useNavigate();
 
