@@ -8,6 +8,7 @@ const Card = (exdata) => {
   const exName=exdata.data.name;
   const { username } = useUser();
   const userId=username;
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   // console.log(exdata)
 
